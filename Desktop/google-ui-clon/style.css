@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none ;
+    outline: none;
 }
 
 body {
@@ -65,12 +66,90 @@ nav button:hover {
      margin-top: 107px;
  }
 
+ .s-box {
+     width: 580px;
+     margin: 0 auto;
+ margin-top: 42px;
+text-align: center; 
+position: relative;
+}
+
+     .s-box .s-input {
+         width: 100%;
+         padding: 13px;
+         padding-left: 45px;
+         padding-right: 45px;
+         border-radius: 25px;
+         border: 1px solid #ddd;
+
+     }
+
+
 /* iconlar */
 
 .vs-icon {
-width: 18px;
+width: 14px;
+position: absolute;
+top: 12px;
+right: 24px;
+
 }
 
 .search-icon {
     width: 18px;
+    position: absolute;
+    left: 14px;
+    top: 13px;
+    opacity: .4;
 }
+
+.s-box .s-input:hover {
+box-shadow: 0 1px 3px rgb(192,185,185)
+}
+ .s-btn {
+     border: 1px solid transparent;
+     padding: 9px 15px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     color: #666;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ .lang {
+     text-align: center;
+     color: #111;
+ }
+
+ .lang a {
+     color: #1a0dab;
+     margin-left: 5px;
+ }
+
+ .lang a:hover {
+     text-decoration: underline;
+ }
+ footer {
+     background: #f2f2f2;
+ }
+
+ footer h4 {
+     color: rgba(0,0,0,.54);
+     font-size: 15px;
+     padding-left: 29px;
+     border-bottom: 1px solid #dadce0 :
+ }
+ footer a {
+     color: #5f6368;
+     display: inline-block;
+     padding: 12px 11px;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
+ .links {
+display: flex;
+justify-content: space-between;
+ }
